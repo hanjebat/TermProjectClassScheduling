@@ -1,3 +1,6 @@
+Group Member:
+Assmida Binti Hassdee(1819114), Ayza-Adani Binti Jaffry (1813100), Hannah Binti Huda (1814022)
+
 # Introduction
 
 CPU Scheduling is a process determining which process will execute first while another process is on hold or in waiting state due to insufficient of CPU resources.  
@@ -12,11 +15,11 @@ Describe what you have considered
 
 Give an analysis of your algo and compare it with the other two
 
-## Algo2
+## SJF
 
 Give an analysis of your algo and compare it with the other two
 
-## Algo3
+## Priority Scheduling
 
 Give an analysis of your algo and compare it with the other two
 
