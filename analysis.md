@@ -19,7 +19,7 @@ Give an analysis of your algo and compare it with the other two
 
 ## SJF
 
-In shortest job first,
+In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
 Output <br>
 Order in which processes gets executed: 2201 -> 1103 -> 3401
 Average waiting time = 1.33333 <br>
