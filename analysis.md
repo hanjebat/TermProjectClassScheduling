@@ -1,5 +1,5 @@
 # Group Members
-Assmida Binti Hassdee(1819114) <br>
+Assmida Binti Hassdee (1819114) <br>
 Ayza-Adani Binti Jaffry (1813100) <br>
 Hannah Binti Huda (1814022)
 
@@ -16,7 +16,7 @@ There are several types of scheduling algorithms: First Come First Serve (FCFS),
 ## FCFS
 In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
 
-Output <br>
+### Output <br>
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 2.66667 <br>
 Average turn around time = 4.66667
@@ -24,7 +24,7 @@ Average turn around time = 4.66667
 ## SJF
 
 In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
-Output <br>
+### Output <br>
 Order in which processes gets executed: 2201 -> 1103 -> 3401<br>
 Average waiting time = 1.33333 <br>
 Average turn around time = 3.33333
@@ -32,8 +32,13 @@ Average turn around time = 3.33333
 ## Priority Scheduling
 In priority scheduling, the scheduler selects process to work based on the priority lists. In non-preemptive priority scheduling algorithm, if a new process with higher priority than current running process, the new process will at the head of ready queue, the process will be execute immediately.<br>
 <br>
-Output <br>
+### Output <br>
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
+Processes   Burst time   Waiting time   Turn around time <br>
+   1103         1           0             1<br>
+   2201         3           1             4<br>
+   3401         2           4             6<br>
 Average waiting time = 1.66667 <br>
 Average turn around time = 3.66667
 
+Compared to FCFS, even though the order of processes gets executed is the same, by using priority scheduling algorithm the average waiting time and average turn around time is faster. Priority scheduling algorithm is suitable for a real-time operating system.
