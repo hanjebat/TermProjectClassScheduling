@@ -1,6 +1,6 @@
 # Introduction
 
-Describe the algorithms of your choice
+CPU Scheduling is a process determining which process will execute first while another process is on hold or in waiting state due to insufficient of CPU resources.  
 
 # Consideration
 
