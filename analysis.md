@@ -1,6 +1,6 @@
-# Group Member
-Assmida Binti Hassdee(1819114)
-Ayza-Adani Binti Jaffry (1813100)
+# Group Members
+Assmida Binti Hassdee(1819114) <br>
+Ayza-Adani Binti Jaffry (1813100) <br>
 Hannah Binti Huda (1814022)
 
 # Introduction
@@ -22,6 +22,10 @@ Give an analysis of your algo and compare it with the other two
 Give an analysis of your algo and compare it with the other two
 
 ## Priority Scheduling
-
-Give an analysis of your algo and compare it with the other two
+In priority scheduling, the scheduler selects process to work based on the priority lists. In non-preemptive priority scheduling algorithm, if a new process with higher priority than current running process, the new process will at the head of ready queue, the process will be execute immediately.<br>
+<br>
+Output <br>
+Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
+Average waiting time = 1.66667 <br>
+Average turn around time = 3.66667
 
