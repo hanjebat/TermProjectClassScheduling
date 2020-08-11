@@ -34,11 +34,9 @@ In priority scheduling, the scheduler selects process to work based on the prior
 <br>
 ### Output <br>
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
-Processes   Burst time   Waiting time   Turn around time <br>
-   1103         1           0             1<br>
-   2201         3           1             4<br>
-   3401         2           4             6<br>
 Average waiting time = 1.66667 <br>
 Average turn around time = 3.66667
 
 Compared to FCFS, even though the order of processes gets executed is the same, by using priority scheduling algorithm the average waiting time and average turn around time is faster. Priority scheduling algorithm is suitable for a real-time operating system.
+
+
