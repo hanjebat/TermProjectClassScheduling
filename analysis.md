@@ -14,6 +14,7 @@ There are several types of scheduling algorithms: First Come First Serve (FCFS),
 # Analysis
 
 ## FCFS
+In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
 
 Output <br>
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
