@@ -19,7 +19,11 @@ Give an analysis of your algo and compare it with the other two
 
 ## SJF
 
-Give an analysis of your algo and compare it with the other two
+In shortest job first,
+Output <br>
+Order in which processes gets executed: 2201 -> 1103 -> 3401
+Average waiting time = 1.33333 <br>
+Average turn around time = 3.33333
 
 ## Priority Scheduling
 In priority scheduling, the scheduler selects process to work based on the priority lists. In non-preemptive priority scheduling algorithm, if a new process with higher priority than current running process, the new process will at the head of ready queue, the process will be execute immediately.<br>
