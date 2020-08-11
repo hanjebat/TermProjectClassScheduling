@@ -15,13 +15,16 @@ There are several types of scheduling algorithms: First Come First Serve (FCFS),
 
 ## FCFS
 
-Give an analysis of your algo and compare it with the other two
+Output <br>
+Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
+Average waiting time = 2.66667 <br>
+Average turn around time = 4.66667
 
 ## SJF
 
 In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
 Output <br>
-Order in which processes gets executed: 2201 -> 1103 -> 3401
+Order in which processes gets executed: 2201 -> 1103 -> 3401<br>
 Average waiting time = 1.33333 <br>
 Average turn around time = 3.33333
 
