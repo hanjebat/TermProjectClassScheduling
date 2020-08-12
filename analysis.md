@@ -12,7 +12,7 @@ CPU Scheduling is a process determining which process will execute first while a
 There are several types of scheduling algorithms: First Come First Serve (FCFS), Shortest-Job-First (SJF), Shortest Remaining Time, Priority Scheduling, Round Robin Scheduling and multilevel scheduling. For this project we have considered First Come First Serve(FCFS), Shortest Job First(SJF) and Priority Scheduling. We applied processes with same data (arrival time, burst time and priority) using FCFS, SJF and priority scheduling to analyze the average time taken and average turn around time.
 
 # Analysis
-Input for the project consists of three processess.
+Inputs for the project consists of three processess.
 
 Process 1: 2201 <br>
 Duration: 3 <br>
@@ -32,24 +32,25 @@ Arrival Time: 3 <br>
 
 ## FCFS
 In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
-### Output 
+#### Output 
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 2.66667 <br>
 Average turn around time = 4.66667
 
 ## SJF
 In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
-### Output 
+#### Output 
 Order in which processes gets executed: 2201 -> 1103 -> 3401<br>
 Average waiting time = 1.33333 <br>
 Average turn around time = 3.33333
 
 ## Priority Scheduling
 In priority scheduling, the scheduler selects process to work based on the priority lists. Priority scheduling algorithm is suitable for a real-time operating system. In non-preemptive priority scheduling algorithm, if a new process with higher priority than current running process appear in ready queue, the new process will be positioned at the head of ready queue and the process will be execute immediately. If there are processses with the same priority, it will be executed based on FCFS algorithm.<br>
-### Output
+#### Output
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 1.66667 <br>
 Average turn around time = 3.66667 <br>
+
 
 # Conclusion
 The calculation of three algorithms shows different average waiting time. SJF has the shortest average waiting time compared to FCFS and priority scheduling. 
