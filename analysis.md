@@ -12,6 +12,23 @@ CPU Scheduling is a process determining which process will execute first while a
 There are several types of scheduling algorithms: First Come First Serve (FCFS), Shortest-Job-First (SJF), Shortest Remaining Time, Priority Scheduling, Round Robin Scheduling and multilevel scheduling. For this project we have considered First Come First Serve(FCFS), Shortest Job First(SJF) and Priority Scheduling. We applied processes with same data (arrival time, burst time and priority) using FCFS, SJF and priority scheduling to analyze the average time taken and average turn around time.
 
 # Analysis
+Input for the project consists of three processess.
+
+Process 1: 2201 <br>
+Duration: 3 <br>
+Priority: 2 <br>
+Arrival Time: 1 <br>
+<br>
+Process 1: 3401 <br>
+Duration: 2 <br>
+Priority: 3 <br>
+Arrival Time: 2 <br>
+<br>
+Process 1: 1103 <br>
+Duration: 1 <br>
+Priority: 1 <br>
+Arrival Time: 3 <br>
+
 
 ## FCFS
 In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
