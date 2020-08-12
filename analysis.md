@@ -38,7 +38,7 @@ Average waiting time = 2.66667 <br>
 Average turn around time = 4.66667
 
 ## SJF
-In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
+In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. This algorithm is better than the other algorithm as it has the shortest average waiting time hence the processes can be executed faster.<br>
 #### Output 
 Order in which processes gets executed: 2201 -> 1103 -> 3401<br>
 Average waiting time = 1.33333 <br>
