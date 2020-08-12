@@ -19,12 +19,12 @@ Duration: 3 <br>
 Priority: 2 <br>
 Arrival Time: 1 <br>
 <br>
-Process 1: 3401 <br>
+Process 2: 3401 <br>
 Duration: 2 <br>
 Priority: 3 <br>
 Arrival Time: 2 <br>
 <br>
-Process 1: 1103 <br>
+Process 3: 1103 <br>
 Duration: 1 <br>
 Priority: 1 <br>
 Arrival Time: 3 <br>
@@ -32,22 +32,21 @@ Arrival Time: 3 <br>
 
 ## FCFS
 In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
-
-### Output <br>
+### Output 
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 2.66667 <br>
 Average turn around time = 4.66667
 
 ## SJF
 In shortest job first algorithm, the scheduler selects process to work based on the burst time. In non-preemptive shortest job first algorithm, the burst time of the processes should be known to the processor in advance. <br>
-### Output <br>
+### Output 
 Order in which processes gets executed: 2201 -> 1103 -> 3401<br>
 Average waiting time = 1.33333 <br>
 Average turn around time = 3.33333
 
 ## Priority Scheduling
 In priority scheduling, the scheduler selects process to work based on the priority lists. Priority scheduling algorithm is suitable for a real-time operating system. In non-preemptive priority scheduling algorithm, if a new process with higher priority than current running process appear in ready queue, the new process will be positioned at the head of ready queue and the process will be execute immediately. If there are processses with the same priority, it will be executed based on FCFS algorithm.<br>
-### Output <br>
+### Output
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 1.66667 <br>
 Average turn around time = 3.66667 <br>
