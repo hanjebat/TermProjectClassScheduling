@@ -31,7 +31,8 @@ Arrival Time: 3 <br>
 
 
 ## FCFS
-In first come first serve schedulling algorithm, the process which arrives first, gets executed first. 
+In first come first serve schedulling algorithm, the process which arrives first, gets executed first or he process which requests the CPU first, gets the CPU allocated first. It is just like FIFO(First in First out) Queue data structure, where the data element which is added to the queue first, is the one who leaves the queue first. The drawbacks in this algorithm is that it is non-preemptive algorithm, which means the process priority doesn't matter hence the average waiting time not in optimal state. <br> 
+
 #### Output 
 Order in which processes gets executed: 1103 -> 2201 -> 3401 <br>
 Average waiting time = 2.66667 <br>
